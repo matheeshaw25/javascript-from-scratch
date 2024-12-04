@@ -1,12 +1,24 @@
-// To use a varibale :
-// 1. Declaration let x;
-// 2. Assignment x=100;
+// arithmetic operations = operands (values, variable, etc.)
+//                         operators (+ - / *)
 
-let fullName = "Mat Wij";
-let age = 22;
-let isStudent = false;
+let students = 30;
+// students = students + 1;
+// students = students - 1 ;
+// students = students * 2;
+// students = students / 2;
+// students = students ** 3;
+// let extraStudents = students % 3;
+
+// Augmented Assignment Operators
+// students += 1;
+// students -=1;
+// students *=2;
+// students /= 2;
+// students **= 2;
+// students %= 2;
 
 
-document.getElementById("p1").textContent = `Your full name is ${fullName}`;
-document.getElementById("p2").textContent = `Your are ${age} years old`;
-document.getElementById("p3").textContent = `Enrolled: ${isStudent}`;
+// students ++; //increase value by 1
+students --; // decrease value by 1
+
+console.log(students);
