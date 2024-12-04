@@ -1,15 +1,30 @@
-// console.log(`Hello`); 
-// console.log(`I like pizza`); // display a message on console
+// To use a varibale :
+// 1. Declaration let x;
+// 2. Assignment x=100;
 
-// window.alert(`This is an alert!`); //display an alert
-// window.alert(`I like pizza!`);
+// Number
 
-document.getElementById("myH1").textContent = `Hello`;
-document.getElementById("myP").textContent = `I like pizzza!`;
+// let age = 25;
+// let price = 10.99;
+// let gpa = 2.1;
 
-/*
-This
-is 
-a 
-comment
-*/
+// String
+
+// let first_name = "Mat";
+// let favoriteFood = "pizza";
+// let email = "mat123@gmail.com";
+
+// console.log(typeof first_name);
+// console.log(`Your name is ${first_name}`);
+// console.log(`You like ${favoriteFood}`);
+// console.log(`Your email is ${email}`);
+
+// Boolean
+
+let online = false;
+let forSale = true;
+let isStudent = true;
+
+console.log(`Bro is online: ${online}`);
+console.log(`Is this car for sale: ${forSale}`);
+console.log(`Enrolled: ${isStudent}`);
