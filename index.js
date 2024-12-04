@@ -19,6 +19,13 @@ let students = 30;
 
 
 // students ++; //increase value by 1
-students --; // decrease value by 1
+// students --; // decrease value by 1
 
-console.log(students);
+// console.log(students);
+
+
+
+let result = 1 +2 * 3 + 4 ** 2; // BODMAS order
+let result2 = 12 % 5 + 8/2;
+console.log(result)
+console.log(result2)
